@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomDRS.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd7767768faf46675111bc815d009aa588981cf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0ecab8f5b5ca3d17aa3e6957692650a72b39597")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomDRS.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomDRS.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
