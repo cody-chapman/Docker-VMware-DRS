@@ -1,0 +1,14 @@
+services:
+  pwsh-drs:
+    image: pwsh-drs
+    container_name: wgb-pwsh-drs
+    restart: always
+    environment:
+      - EMAIL_SERVER=10.1.0.11:25
+      - EMAIL_DOMAIN=westgate.bank
+      - TZ=America/Chicago
+    volumes:
+      - /configs/wgb-pwsh-drs/email.txt:/data/email.txt:ro
+      - /configs/wgb-pwsh-drs/domains.txt:/data/domains.txt:ro
+      - /configs/wgb-pwsh-drs/emailaddress.txt:/data/emailaddress.txt
+      - /configs/wgb-pwsh-drs/mycron:/etc/cron.d/mycron
